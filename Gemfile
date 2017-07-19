@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.2.6'
 
-
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'sqlite3'
 gem 'puma', '~> 3.0'
@@ -18,5 +17,5 @@ group :development do
   gem 'web-console'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 gem 'devise', '~> 4.3.0'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
